@@ -1,0 +1,187 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "alexandra_rose",
+      "profilePic": "src/assets/pic_1.jpg",
+      "imageUrl": "src/assets/img_1.jpg",
+      "caption": "Weekend vibes 🌸 #relaxing",
+      "likes": 432,
+      "comments": 34,
+      "timestamp": "2025-04-24T18:15:00Z",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "2",
+      "username": "markventures",
+      "profilePic": "src/assets/pic_2.jpg",
+      "imageUrl": "src/assets/img_2.jpg",
+      "caption": "Adventure awaits 🚵‍♂️",
+      "likes": 210,
+      "comments": 19,
+      "timestamp": "2025-04-23T09:10:00Z",
+      "location": "Yosemite National Park"
+    },
+    {
+      "id": "3",
+      "username": "tasteofheaven",
+      "profilePic": "src/assets/pic_3.jpg",
+      "imageUrl": "src/assets/img-3.jpg",
+      "caption": "Brunch dates are the best! 🥑🍳",
+      "likes": 580,
+      "comments": 41,
+      "timestamp": "2025-04-22T11:30:00Z",
+      "location": "New York, NY"
+    },
+    {
+      "id": "4",
+      "username": "urban_explorer",
+      "profilePic": "src/assets/pic_4.jpg",
+      "imageUrl": "src/assets/img_4.jpg",
+      "caption": "Concrete jungles and rooftop dreams 🌆",
+      "likes": 370,
+      "comments": 28,
+      "timestamp": "2025-04-21T20:00:00Z",
+      "location": "Chicago, IL"
+    },
+    {
+      "id": "5",
+      "username": "sofia_writes",
+      "profilePic": "src/assets/pic_5.jpg",
+      "imageUrl": "src/assets/img_5.jpg",
+      "caption": "Words are powerful ✍️ #poetry",
+      "likes": 152,
+      "comments": 17,
+      "timestamp": "2025-04-20T14:45:00Z",
+      "location": "Boston, MA"
+    },
+    {
+      "id": "6",
+      "username": "nomad_life",
+      "profilePic": "src/assets/pic_6.jpg",
+      "imageUrl": "src/assets/img_6.jpg",
+      "caption": "Chasing sunsets 🌅",
+      "likes": 490,
+      "comments": 52,
+      "timestamp": "2025-04-19T19:25:00Z",
+      "location": "Bali, Indonesia"
+    },
+    {
+      "id": "7",
+      "username": "pixel_perfect",
+      "profilePic": "src/assets/pic_7.jpg",
+      "imageUrl": "src/assets/img_7.jpg",
+      "caption": "Behind every picture, a thousand memories 📸",
+      "likes": 328,
+      "comments": 23,
+      "timestamp": "2025-04-18T16:00:00Z",
+      "location": "Los Angeles, CA"
+    }
+  ],
+  "profile": {
+    "id": 22,
+    "username": "extra_chrispy",
+    "profilePic": "src\\assets\\abcd-modified.png"
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "elisa_das",
+      "profilePic": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": "2",
+      "username": "leo_das",
+      "profilePic": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": "3",
+      "username": "trisha",
+      "profilePic": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "id": "4",
+      "username": "harold_das",
+      "profilePic": "https://randomuser.me/api/portraits/men/85.jpg"
+    },
+    {
+      "id": "5",
+      "username": "simran",
+      "profilePic": "https://randomuser.me/api/portraits/women/5.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "username": "elisa_das",
+      "profilePic": "https://randomuser.me/api/portraits/women/44.jpg",
+      "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf"
+    },
+    {
+      "id": "2",
+      "username": "leo_das",
+      "profilePic": "https://randomuser.me/api/portraits/men/32.jpg",
+      "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+    },
+    {
+      "id": "3",
+      "username": "trisha",
+      "profilePic": "https://randomuser.me/api/portraits/women/68.jpg",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+    },
+    {
+      "id": "4",
+      "username": "harold_das",
+      "profilePic": "https://randomuser.me/api/portraits/men/85.jpg",
+      "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+    },
+    {
+      "id": "5",
+      "username": "simran",
+      "profilePic": "https://randomuser.me/api/portraits/women/5.jpg",
+      "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
+    },
+    {
+      "id": "6",
+      "username": "daniel",
+      "profilePic": "https://randomuser.me/api/portraits/men/15.jpg",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+    },
+    {
+      "id": "7",
+      "username": "megha",
+      "profilePic": "https://randomuser.me/api/portraits/women/12.jpg",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+    },
+    {
+      "id": "8",
+      "username": "arjun",
+      "profilePic": "https://randomuser.me/api/portraits/men/21.jpg",
+      "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+    },
+    {
+      "id": "9",
+      "username": "kavya",
+      "profilePic": "https://randomuser.me/api/portraits/women/53.jpg",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+    },
+    {
+      "id": "10",
+      "username": "ravi",
+      "profilePic": "https://randomuser.me/api/portraits/men/64.jpg",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+    }
+  ],
+  "followers": [
+    {
+      "id": "3",
+      "username": "trisha",
+      "profilePic": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "id": "1",
+      "username": "elisa_das",
+      "profilePic": "https://randomuser.me/api/portraits/women/44.jpg"
+    }
+  ]
+}
