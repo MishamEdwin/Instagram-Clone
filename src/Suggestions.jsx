@@ -6,12 +6,12 @@ function Suggestions() {
   const [suggestions, setSuggestions] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/profile")
+    fetch("https://json-server-deployment-imv4.onrender.com/profile")
       .then((data) => data.json())
       .then((data) => setProfile(data))
       .catch((error) => console.log(error));
 
-    fetch("http://localhost:3000/suggestions")
+    fetch("https://json-server-deployment-imv4.onrender.com/suggestions")
       .then((data) => data.json())
       .then((data) => setSuggestions(data))
       .catch((error) => console.log(error));
@@ -19,7 +19,7 @@ function Suggestions() {
 
   const handleFollow = async (id, username, profilePic) => {
     axios
-      .post("http://localhost:3000/followers", {
+      .post("https://json-server-deployment-imv4.onrender.com/followers", {
         id: id,
         username: username,
         profilePic: profilePic,

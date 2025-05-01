@@ -9,7 +9,7 @@ function ViewStory() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/story/${id}`)
+    fetch(`https://json-server-deployment-imv4.onrender.com/story/${id}`)
       .then((data) => data.json())
       .then((data) => setStory(data))
       .catch((err) => console.log(err));
@@ -25,11 +25,11 @@ function ViewStory() {
     <div>
       {story ? (
         <div className="d-flex justify-content-center bg-black align-items-center">
-          <Link to={`http://localhost:5173/story/${Number(id) - 1}/${tot}`}>
+          <Link to={`https://json-server-deployment-imv4.onrender.com/story/${Number(id) - 1}/${tot}`}>
             <i className="bi bi-arrow-left-circle text-primary"></i>
           </Link>
           <img className="vh-100" src={story.image} alt="" style={{maxWidth:"30%"}}/>
-          <Link to={`http://localhost:5173/story/${Number(id) + 1}/${tot}`}>
+          <Link to={`https://json-server-deployment-imv4.onrender.com/story/${Number(id) + 1}/${tot}`}>
             <i className="bi bi-arrow-right-circle text-primary"></i>
           </Link>
         </div>

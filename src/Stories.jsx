@@ -10,7 +10,7 @@ function Stories() {
   let tot=0;
 
   useEffect(() => {
-    fetch("http://localhost:3000/story")
+    fetch("https://json-server-deployment-imv4.onrender.com/story")
       .then((data) => data.json())
       .then((data) => setStories(data))
       .catch((error) => console.log(error));

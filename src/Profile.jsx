@@ -8,7 +8,7 @@ function Profile() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/profile")
+      .get("https://json-server-deployment-imv4.onrender.com/profile")
       .then((data) => {
         setProfile(data.data);
         console.log(data);
@@ -18,7 +18,7 @@ function Profile() {
       });
 
     axios
-      .get("http://localhost:3000/followers")
+      .get("https://json-server-deployment-imv4.onrender.com/followers")
       .then((data) => setFollowers(data.data))
       .catch((err) => {
         console.log(err);
@@ -34,7 +34,7 @@ function Profile() {
 
   const handleUpdate = async () => {
     axios
-      .put("http://localhost:3000/profile", profile)
+      .put("https://json-server-deployment-imv4.onrender.com/profile", profile)
       .then(console.log("Updated"))
       .catch((err) => console.log(err));
   };
@@ -43,7 +43,7 @@ function Profile() {
 
   const handleUnfollow = async (id) => {
     axios
-      .delete(`http://localhost:3000/followers/${id}`)
+      .delete(`https://json-server-deployment-imv4.onrender.com/followers/${id}`)
       .then(alert("Unfollowed !"))
       .then(setUnfollow(!unfollow))
       .catch((error) => console.log(error));
